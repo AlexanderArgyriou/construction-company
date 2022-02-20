@@ -14,6 +14,17 @@ body {
   background-color: #74959A;
 }
 
+#testimonials {
+  background-color: #98B4AA;
+  text-align: center;
+}
+
+#press {
+  background-color: #98B4AA;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
 .h1-title {
   font-family: "Montserrat-Black";
   font-weight: bold;
@@ -68,11 +79,11 @@ body {
 
 .features-col {
   text-align: center;
-  padding: 0rem 5rem;
+  padding: 5rem;
 }
 
 .icon-size-big {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   padding: 15px;
   color: #fff;
 }
@@ -80,4 +91,38 @@ body {
 .features-h3 {
   font-family: "Montserrat-Bold";
   font-weight: bold;
+}
+
+.icon-size-big:hover {
+  color: #495371;
+}
+
+.p-feature {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.press-img {
+  width: 10%;
+  padding: 5rem 3rem 0rem 3rem;
+}
+
+.h2-press {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.img-testimonials {
+  width: 8%;
+  border-radius: 100%;
+  padding-top: 2%;
+}
+
+em {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-weight: bolder;
 }
